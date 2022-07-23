@@ -1,0 +1,142 @@
+{
+  "id": "3470725",
+  "name": "cjx",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1191489",
+      "name": "设计师简介_web",
+      "font_class": "web",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "8625833",
+      "name": "旅行社简介",
+      "font_class": "lvhangshejianjie",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "24099395",
+      "name": "院校简介",
+      "font_class": "yuanxiaojianjie",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "27764169",
+      "name": "政务-机构简介",
+      "font_class": "zhengwu-jigoujianjie",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1318930",
+      "name": "电影院",
+      "font_class": "dianying",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "2448144",
+      "name": "照片墙",
+      "font_class": "zhaopianqiang",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "3216328",
+      "name": "照片",
+      "font_class": "zhaopian",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "3739492",
+      "name": "电影",
+      "font_class": "dianying1",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "3739659",
+      "name": "动画",
+      "font_class": "donghua",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "4520184",
+      "name": "照片",
+      "font_class": "zhaopian1",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "6337598",
+      "name": "关于我们",
+      "font_class": "guanyuwomen",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "6501330",
+      "name": "更多",
+      "font_class": "icon-more",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "6638071",
+      "name": "关于我们",
+      "font_class": "guanyuwomen1",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "7965877",
+      "name": "看电影",
+      "font_class": "kandianying",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "8666838",
+      "name": "照片",
+      "font_class": "zhaopian2",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "9712770",
+      "name": "更多",
+      "font_class": "gengduox",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9908893",
+      "name": "关于我们",
+      "font_class": "guanyuwomen2",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11542846",
+      "name": "关于",
+      "font_class": "guanyu",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "12031260",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}

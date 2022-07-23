@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        @media (max-width : 960px) {
+            .login {
+                width: 200px !important;
+                height: 220px !important
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+
+        nav {
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul {
+            display: flex;
+            width: 750px;
+            margin: 0 auto;
+        }
+
+        nav ul .column {
+            flex: 1;
+            height: 60px;
+        }
+
+        nav ul .column a {
+            display: flex;
+            height: 60px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: 0.5s ease-in-out;
+        }
+
+        nav ul .column a:hover {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-bottom: 3px solid #426696;
+        }
+
+        nav ul .column a .column_hd {
+            font-size: 16px;
+            font-family: 幼圆;
+            font-weight: 400;
+        }
+
+        nav ul .column a .column_bd {
+            font-size: 14px;
+            font-family: 幼圆;
+            font-weight: 400;
+        }
+
+
+
+        body {
+            background: url(images/登录壁纸.jpg) no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: black;
+        }
+
+        .login {
+            display: flex;
+            margin: 0 auto;
+            margin-top: 28vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: whitesmoke;
+            border-radius: 1.5vw;
+            width: 21vw;
+            height: 23vw;
+        }
+
+        input {
+            box-sizing: border-box;
+            width: 90%;
+            height: 18%;
+            border: 0;
+            background: whitesmoke;
+            border-bottom: 2px solid silver;
+            outline: none;
+            padding: 15px;
+            font-size: 18px;
+
+        }
+
+        h1 {
+            margin: 8% 0;
+        }
+
+        button {
+            margin-top: 12%;
+            width: 40%;
+            height: 10%;
+            border-radius: 4px;
+            border: 0;
+            background: #C4E1FF;
+        }
+
+        a {
+            color: #8E8E8E;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="column">
+                <a href="#">
+                    <span class="column_hd">Home</span>
+                    <span class="column_bd">主页</span>
+                </a>
+            </li>
+            <li class="column">
+                <a href="anime.html">
+                    <span class="column_hd">Anime</span>
+                    <span class="column_bd">动漫</span>
+                </a>
+            </li>
+            <li class="column">
+                <a href="movie.html">
+                    <span class="column_hd">Movie</span>
+                    <span class="column_bd">电影</span>
+                </a>
+            </li>
+            <li class="column">
+                <a href="photograph.html">
+                    <span class="column_hd">Photograph</span>
+                    <span class="column_bd">照片墙</span>
+                </a>
+            </li>
+            <li class="column">
+                <a href="login.html">
+                    <span class="column_hd">Login</span>
+                    <span class="column_bd">登录/注册</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <form action="" class="login">
+        <h1>login</h1>
+        <input type="text" class="" placeholder="账号">
+        <input type="password" placeholder="密码">
+        <button><a href="index.html">登录</a></button>
+    </form>
+</body>
+
+</html>

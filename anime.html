@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入基础样式 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入anime 样式 -->
+    <link rel="stylesheet" href="css/anime.css">
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <div class="top">
+        <header id="header">
+
+            <img src="images/喵咪老师01.png" alt="" class="mm01">
+            <img src="images/喵咪.jpg" alt="" class="mm02">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="movie.html">电影</a></li>
+                <li><a href="#"><img src="images/1-4.jpg" alt="" class="touxiang"></a></li>
+                <li><a href="photograph.html">照片</a></li>
+                <li><a href="login.html">登录</a></li>
+            </ul>
+        </nav>
+        <div class="beijingtu">『不可结缘的话 也只是徒增寂寞罢了』</div>
+    </div>
+
+    <main>
+
+        <!-- 剧情简介模块 -->
+        <div class="jianjie">
+            <div class="jianjie_content">
+                <span>动漫介绍</span> <br>
+                《夏目友人帐》是漫画家绿川幸著作的漫画。 故事讲述了夏目贵志从外祖母夏目玲子的遗物中得到了那些由契约书所做成的“友人帐”，他决定将友人帐中妖怪们的名字一一归还。
+                <br>
+                <button><a part=""
+                        href="https://search.bilibili.com/bangumi?keyword=%E5%A4%8F%E7%9B%AE%E5%8F%8B%E4%BA%BA%E5%B8%90">去看动漫</a></button>
+            </div>
+        </div>
+
+        <!-- 人物介绍模块 -->
+        <div class="shell">
+            <label for="button1" class="button" style="--i:0">夏目贵志</label>
+            <input type="radio" id="button1" name="page" checked>
+            <div class="page">
+                <div class="page_content">
+                    <img src="images/夏目贵志.png" alt="">
+                    <h1>夏目贵志</h1>
+                    <p>最近感到困扰的是，连小小的离别都会觉得有点寂寞。短暂的相遇跟离别，我想重视所有的刹那。</p>
+                    <h5>
+                        日本漫画《夏目友人帐》及其衍生作品中的主人公。夏目玲子的孙子，拥有罕见的妖力。父母早年离世，夏目贵志能看到妖怪，使得他被亲戚嫌弃辗转生活于亲戚家之间。虽然被妖怪们误认为是玲子而被追赶，但他和保镖猫咪老师一起过着归还妖怪名字的日子。
+                    </h5>
+
+                </div>
+            </div>
+            <label for="button3" class="button" style="--i:2">猫咪老师</label>
+            <input type="radio" id="button3" name="page">
+            <div class="page">
+                <div class="page_content">
+                    <img src="images/猫咪老师介绍.png" alt="" width="30%">
+                    <h1>猫咪老师/斑</h1>
+                    <p>我好歹也是这家伙的保镖，要是你们再次伤害他，那么你们的敌人就不是除妖师，而是我。有种就来挑战我。</p>
+                    <h5>
+                        本来拥有优美的的外观名为斑的妖怪，被封入招财猫里之后，不知不觉开始习惯招财猫的身体。和夏目约定如果夏目死了就把友人帐送给他，作为夏目的保镖兼家猫和夏目一起生活。
+                    </h5>
+                </div>
+            </div>
+
+            <label for="button2" class="button" style="--i:1">夏目玲子</label>
+            <input type="radio" id="button2" name="page">
+            <div class="page">
+                <div class="page_content">
+                    <img src="images/玲子.png" alt="">
+                    <h1>夏目玲子</h1>
+                    <p>你的名字挺好听的，既然你成了我的手下，若是我呼唤你的名字，你就要飞奔过来哦。</p>
+                    <h5>日本漫画《夏目友人帐》及其衍生作品中的角色。是男主角夏目贵志的外婆，漂亮有气质，基本只在回忆中登场，拥有强大的妖力，智慧和勇气。和斑（猫咪老师）似乎有一段过往。
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- 其他效果展示模块 -->
+        <div class="video">
+            <div class="video_left">
+                <video src="images/夏目视频.mp4" controls loop>
+            </div>
+            <div class="video_rigth">
+                <ul>
+                    <li><img src="images/tp01.jpg" alt=""></li>
+                    <li><img src="images/tp02.jpg" alt=""></li>
+                    <li><img src="images/tp03.jpg" alt=""></li>
+                    <li><img src="images/tp04.jpg" alt=""></li>
+                    <li><img src="images/tp05.jpg" alt=""></li>
+                    <li><img src="images/tp06.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <img src="./images/天气之子动态.gif" alt="" id="up">
+
+
+
+    </main>
+
+    <!-- 公共底部 -->
+    <footer>
+        This is a very common front-end web page, our first work. <br>
+        由cjx组制作，于2022.06.16 完成 <br>
+        e-mail：0123456789@qq.com
+    </footer>
+</body>
+<script>
+    var up = document.querySelector('#up')
+    up.addEventListener('click', function () {
+        animate(window, 0);
+    })
+    function animate(obj, target, callback) {
+        // console.log(callback);  callback = function() {}  调用的时候 callback()
+
+        // 先清除以前的定时器，只保留当前的一个定时器执行
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function () {
+            // 步长值写到定时器的里面
+            // 把我们步长值改为整数 不要出现小数的问题
+            // var step = Math.ceil((target - obj.offsetLeft) / 10);
+            var step = (target - window.pageYOffset) / 10;
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            if (window.pageYOffset == target) {
+                // 停止动画 本质是停止定时器
+                clearInterval(obj.timer);
+                // 回调函数写到定时器结束里面
+                // if (callback) {
+                //     // 调用函数
+                //     callback();
+                // }
+                callback && callback();
+            }
+            // 把每次加1 这个步长值改为一个慢慢变小的值  步长公式：(目标值 - 现在的位置) / 10
+            // obj.style.left = window.pageYOffset + step + 'px';
+            window.scroll(0, window.pageYOffset + step);
+        }, 30);
+    }
+</script>
+
+</html>

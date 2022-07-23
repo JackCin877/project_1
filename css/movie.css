@@ -1,0 +1,421 @@
+nav ul {
+  background-color: #e7e7e7;
+  width: 100%;
+  line-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+nav ul li {
+  flex: 1;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #5a5a5a;
+  font-size: 30px;
+  font-family: 华文琥珀;
+}
+
+nav ul .touxiang {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: white 20px solid;
+  border-radius: 50%;
+  margin-top: -10px;
+  z-index: 1;
+}
+
+.content>div {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0);
+  letter-spacing: 10px;
+  line-height: 50px;
+  margin: 0 auto;
+  border: white solid 5px;
+  transition: 1s;
+}
+
+.mz {
+  background: url(../images/你的名字.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.mz:hover {
+  height: 1000px;
+}
+
+.mz .mzwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.mz .mzwz:hover {
+  text-shadow: #0804ff 0px 2px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.mz .mzwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.mz .mzwz span {
+  font-size: 20px;
+}
+
+.yy {
+  background: url(../images/言叶之庭.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.yy:hover {
+  height: 1000px;
+}
+
+.yy .yywz {
+  height: 100%;
+  transition: 2s;
+}
+
+.yy .yywz:hover {
+  text-shadow: #02ac10 0px 2px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.yy .yywz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.yy .yywz span {
+  font-size: 20px;
+}
+
+.tq {
+  background: url(../images/天气之子.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.tq:hover {
+  height: 1000px;
+}
+
+.tq .tqwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.tq .tqwz:hover {
+  text-shadow: #0804ff 0px 2px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.tq .tqwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.tq .tqwz span {
+  font-size: 20px;
+}
+
+.qx {
+  background: url(../images/千与千寻.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.qx:hover {
+  height: 1000px;
+}
+
+.qx .qxwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.qx .qxwz:hover {
+  text-shadow: #eb0bd8 0px 2px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.qx .qxwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.qx .qxwz span {
+  font-size: 20px;
+}
+
+.tk {
+  background: url(../images/天空之城.jpeg) no-repeat fixed;
+  background-size: cover;
+}
+
+.tk:hover {
+  height: 1000px;
+}
+
+.tk .tkwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.tk .tkwz:hover {
+  text-shadow: #01e1ff 0px 2px 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.tk .tkwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.tk .tkwz span {
+  font-size: 20px;
+}
+
+.he {
+  background: url(../images/哈尔的移动城堡.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.he:hover {
+  height: 1000px;
+}
+
+.he .hewz {
+  height: 100%;
+  transition: 2s;
+}
+
+.he .hewz:hover {
+  text-shadow: #ff5101 0px 2px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.he .hewz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.he .hewz span {
+  font-size: 20px;
+}
+
+.qf {
+  background: url(../images/起风了.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.qf:hover {
+  height: 1000px;
+}
+
+.qf .qfwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.qf .qfwz:hover {
+  text-shadow: #ffffff 0px 2px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.qf .qfwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.qf .qfwz span {
+  font-size: 20px;
+}
+
+.lm {
+  background: url(../images/龙猫.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.lm:hover {
+  height: 1000px;
+}
+
+.lm .lmwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.lm .lmwz:hover {
+  text-shadow: #ffffff 0px 2px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.lm .lmwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.lm .lmwz span {
+  font-size: 20px;
+}
+
+.fzg {
+  background: url(../images/风之谷.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.fzg:hover {
+  height: 1000px;
+}
+
+.fzg .fzgwz {
+  height: 100%;
+  transition: 2s;
+}
+
+.fzg .fzgwz:hover {
+  text-shadow: #ff5101 0px 2px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.fzg .fzgwz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.fzg .fzgwz span {
+  font-size: 20px;
+}
+
+.jy {
+  background: url(../images/悬崖上的金鱼公主.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.jy:hover {
+  height: 1000px;
+}
+
+.jy .jywz {
+  height: 100%;
+  transition: 2s;
+}
+
+.jy .jywz:hover {
+  text-shadow: #ff5101 0px 2px 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.jy .jywz p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  text-align: center;
+}
+
+.jy .jywz span {
+  font-size: 20px;
+}
+
+.content .video {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 300px;
+  border: 0;
+}
+
+.content .video video {
+  position: relative;
+  box-shadow: black 0px 20px 50px;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.content .video #up {
+  display: block;
+  width: 50%;
+  position: absolute;
+  top: -100%;
+  left: 45%;
+  z-index: 0;
+}
+
+.content .video #lm {
+  width: 40%;
+  position: absolute;
+  right: -20%;
+  top: 40%;
+  z-index: 0;
+  animation: lm_move 20s infinite;
+}
+
+@keyframes lm_move {
+  0% {
+    right: -20%;
+  }
+
+  100% {
+    right: 100%;
+  }
+}

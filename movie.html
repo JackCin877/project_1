@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/movie.css">
+</head>
+
+<body>
+    <!-- 公共头部 -->
+    <header id="header">
+
+        <img src="images/喵咪老师01.png" alt="" class="mm01">
+        <img src="images/喵咪.jpg" alt="" class="mm02">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="anime.html">动漫</a></li>
+            <li><a href="#"><img src="images/1-4.jpg" alt="" class="touxiang"></a></li>
+            <li><a href="photograph.html">照片</a></li>
+            <li><a href="login.html">登录</a></li>
+        </ul>
+    </nav>
+
+    <!-- movie 页面内容部分 -->
+    <main>
+        <div class="content">
+            <div class="mz">
+                <div class="mzwz">
+                    <p>『你的名字』<br>
+                        <span>“从现在开始，我将追寻你的名字”</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="yy">
+                <div class="yywz">
+                    <p>『言叶之庭』<br>
+                        <span>“反正所谓人类，多少都有些不正常的”</span>
+                    </p>
+
+                </div>
+            </div>
+            <div class="tq">
+                <div class="tqwz">
+                    <p>『天气之子』<br>
+                        <span>“相比于蓝天，我更想选择阳菜”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="qx">
+                <div class="qxwz">
+                    <p>『千与千寻』<br>
+                        <span>“梦里繁花落尽，此情未央”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="tk">
+                <div class="tkwz">
+                    <p>『天空之城』<br>
+                        <span>“我们的孤独,就像天空中的一座城市,仿佛是一个秘密,却无从诉说”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="he">
+                <div class="hewz">
+                    <p>『哈尔的移动城堡』<br>
+                        <span>“就是因为你不好,才要留在你身边,给你幸福”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="qf">
+                <div class="qfwz">
+                    <p>『起风了』<br>
+                        <span>“我也爱你，从风将你送到我身边的那一刻开始”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="lm">
+                <div class="lmwz">
+                    <p>『龙猫』<br>
+                        <span>“童年时的一场旅途是不是真的很短暂,距离缩短了,时间拉长了,我们迷失了”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="fzg">
+                <div class="fzgwz">
+                    <p>『风之谷』<br>
+                        <span>“带上信仰,去寻找属于你自己的国吧!哪怕倾尽一生”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="jy">
+                <div class="jywz">
+                    <p>『悬崖上的金鱼公主』<br>
+                        <span>“成长,是每个孩子的权力,也是他们必经的征程,或平坦、或崎岖,有悲欢,有离合”</span>
+                    </p>
+                </div>
+            </div>
+            <div class="video">
+                <a href="javascript:;"><img src="./images/天气之子动态.gif" alt="" id="up"></a>
+                <img src="./images/龙猫动态.gif" alt="" id="lm">
+                <video src="./images/宫崎骏.mp4" width="70%" controls loop>
+                </video>
+
+            </div>
+        </div>
+    </main>
+    <!-- 公共底部 -->
+    <footer>
+        This is a very common front-end web page, our first work. <br>
+        由cjx组制作，于2022.06.16 完成 <br>
+        e-mail：0123456789@qq.com
+    </footer>
+
+</body>
+
+
+
+
+
+<script>
+    var up = document.querySelector('#up')
+    up.addEventListener('click', function () {
+        animate(window, 0);
+    })
+    function animate(obj, target, callback) {
+        // console.log(callback);  callback = function() {}  调用的时候 callback()
+
+        // 先清除以前的定时器，只保留当前的一个定时器执行
+        clearInterval(obj.timer);
+        obj.timer = setInterval(function () {
+            // 步长值写到定时器的里面
+            // 把我们步长值改为整数 不要出现小数的问题
+            // var step = Math.ceil((target - obj.offsetLeft) / 10);
+            var step = (target - window.pageYOffset) / 10;
+            step = step > 0 ? Math.ceil(step) : Math.floor(step);
+            if (window.pageYOffset == target) {
+                // 停止动画 本质是停止定时器
+                clearInterval(obj.timer);
+                // 回调函数写到定时器结束里面
+                // if (callback) {
+                //     // 调用函数
+                //     callback();
+                // }
+                callback && callback();
+            }
+            // 把每次加1 这个步长值改为一个慢慢变小的值  步长公式：(目标值 - 现在的位置) / 10
+            // obj.style.left = window.pageYOffset + step + 'px';
+            window.scroll(0, window.pageYOffset + step);
+        }, 30);
+    }
+</script>
+
+
+</html>
